@@ -108,12 +108,6 @@ Esto ejecutará Vitest para comprobar que todas las pruebas pasen correctamente.
 
 ## Despliegue
 
-La aplicación está desplegada en Vercel y se puede acceder a través de los siguientes enlaces:
+La aplicación está desplegada en Vercel y se puede acceder a través del siguiente enlace:
 
-- Versión con 50 personajes: Esta versión carga los 50 personajes, pero debido a problemas de ralentización con la API, provoca que la página de los personajes no cargue correctamente.
-
-  https://zarawebchallenge.vercel.app/
-
-- Versión con 20 personajes: Para mejorar la experiencia de usuario y evitar problemas de carga, se ha creado una versión con 20 personajes.
-
-  https://zarawebchallenge-omnswdoff-ignalogs-projects.vercel.app
+https://zarawebchallenge.vercel.app/
