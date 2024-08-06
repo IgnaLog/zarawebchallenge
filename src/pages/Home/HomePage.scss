@@ -1,0 +1,9 @@
+@import "../../styles/variables";
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}

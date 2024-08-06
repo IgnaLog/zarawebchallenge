@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 24px;
+  padding: 48px 0 48px 0px;
+}
+
+section {
+  padding: 0px 48px 0px 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 16px;
+}
