@@ -47,6 +47,9 @@ function HomePage() {
       setSearchTerm(term);
       setCharacters([]);
       setOffset(0);
+      if (showFavorites) {
+        setShowFavorites(false);
+      }
     }, 300); // Adjust the time it will search for each change in SearchBar
   };
 
@@ -64,7 +67,7 @@ function HomePage() {
         onFavoritesClick={handleFavoritesClick}
         onLogoClick={handleLogoClick}
       />
-      {isLoading && <ProgressBar />}
+      {isLoading && !showFavorites && <ProgressBar />}
       <CharacterList
         characters={showFavorites ? favorites : characters}
         onSearchChange={handleSearchChange}
